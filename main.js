@@ -1,5 +1,5 @@
 // Create canvas variable
-var canvvas = new fabric.Canvas('myCanvas');
+var canvas = new fabric.Canvas('myCanvas');
 
  block_y=1;
  block_x=1;
@@ -35,13 +35,13 @@ console.log(keyPressed);
 	if(keyPressed == '82') // add appropriate keycode
 	{
 		// upload red ranger
-		block_x = 50;
+		block_x = 0;
 		new_image('rr1.png');
 		console.log("r");
 	}
 	if(keyPressed == '71')
 	{
-		block_x = 200;
+		block_x = 250;
 		// upload green ranger
 		new_image('gr.png');
 		console.log("g");
@@ -49,7 +49,7 @@ console.log(keyPressed);
 	
 	if(keyPressed == '89')
 	{
-		block_x =350;
+		block_x =400;
 		// upload yellow ranger
 		new_image('yr.png');
 		console.log("y");
@@ -63,7 +63,7 @@ console.log(keyPressed);
 	}
 	if(keyPressed == '66')
 	{
-		block_x = 700;
+		block_x = 675;
 		// upload blue ranger
 		new_image('br.png');
 		console.log("b");
